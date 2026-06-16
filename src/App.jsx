@@ -1,5 +1,6 @@
 import ConditionalRendering from "./topics/Conditional_Rendering/ConditionalRendering"
 import FragmentsConcept from "./topics/Fragments/Fragments_Concept"
+import UseStateTask from "./topics/Hooks/Task/UseStateTask"
 import UseStateHooks from "./topics/Hooks/UseStateHooks"
 import Jsx_Expression from "./topics/jsx_expression/Jsx_Expression"
 import Jsx_Rules from "./topics/jsx_expression/Jsx_Rules"
@@ -24,6 +25,7 @@ const App = () => {
             {/* <PropsConditionalRendering/> */}
             {/* <FragmentsConcept/> */}
             <UseStateHooks/>
+            <UseStateTask/>
         </div>
     )
 }
