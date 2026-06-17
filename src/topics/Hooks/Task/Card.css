@@ -27,3 +27,11 @@
 .info_box img{
     width: 200px;
 }
+
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(0, 136, 255, 0.9);   
+    border-radius: 4px;
+    
+}
