@@ -29,9 +29,10 @@
 }
 
 button{
-    padding: 10px;
-    margin: 10px;
-    background-color: rgba(0, 136, 255, 0.9);   
-    border-radius: 4px;
-    
+    padding: 8px 12px;
 }
+
+button:hover{
+    filter: invert(1);
+}
+

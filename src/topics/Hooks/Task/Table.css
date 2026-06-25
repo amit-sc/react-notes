@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;  
+
+  width: 90%;
+}
+
+table th, table td {
+  padding: 15px;
+}
+
+table th{
+    background-color: black;
+    color: white;
+}
+
+table td{
+    text-align: center; 
+    border: 1.5px solid black;
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(216, 216, 216);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
